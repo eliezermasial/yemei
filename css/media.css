@@ -1,0 +1,149 @@
+@media (max-width:768px)  {
+    /* le cors de ce site */
+    .title-entete{
+        top: 151px;
+       }
+    .imageYemei{
+        height: 500px;
+       }
+
+       /* la section presentation */
+    .imgMan{
+        width: 235px !important;
+        height: 410px !important;
+        z-index: 1;
+        margin: 0px;
+      }
+      .imgWomen{
+        position: absolute;
+          width: 200px !important;
+          height: 410px !important;
+          left: 156px;
+      }
+      .kisomeNous{
+        padding-top: 1% !important;
+      }
+      .kisomeNous h2{
+        padding-bottom: 0px !important;
+      }
+      .kisomeNous .btnInfoPlus{
+        margin-top: 2% !important;
+        
+      }
+      .kisomeNous .paragraph{
+        font-size: 12px !important;
+        padding-top: 1% !important;
+      }
+}
+
+@media (min-width:768px)  {
+    /* le cors de ce site */
+
+    .title-entete{
+        top: 190px;
+       }
+    .imageYemei{
+        height: 660px;
+       }
+       
+       /* la section presentation */
+
+       .kisomeNous{
+        padding-top: 2% !important;
+      }
+      .kisomeNous h2{
+        padding-bottom: 0px !important;
+      }
+      .kisomeNous .btnInfoPlus{
+        margin-top: 3% !important;
+        
+      }
+      .kisomeNous .paragraph{
+        padding-top: 1% !important;
+      }
+    .imgMan{
+        width: 233px !important;
+        height: 410px !important;
+        z-index: 1;
+        margin: 0px;
+      }
+      .imgWomen{
+        position: absolute;
+          width: 190px !important;
+          height: 410px !important;
+          left: 156px;
+      }
+    
+}
+
+@media (min-width:992px)  {
+     /* le cors de ce site */
+
+    .title-entete{
+        top: 190px;
+       }
+    .imageYemei{
+        height: 660px;
+       }
+       /* la section presentation */
+
+       .kisomeNous{
+        padding-top: 2% !important;
+      }
+      .kisomeNous h2{
+        padding-bottom: 0px !important;
+      }
+      .kisomeNous .btnInfoPlus{
+        margin-top: 10% !important;
+        
+      }
+      .kisomeNous .paragraph{
+        padding-top: 3% !important;
+      }
+
+    .imgMan{
+        width: 297px !important;
+        height: 420px !important;
+        z-index: 1;
+        margin: 0px;
+      }
+      .imgWomen{
+        position: absolute;
+          width: 254px !important;
+          height: 420px !important;
+          left: 195px;
+        
+      }
+     
+}
+
+@media (min-width:1200px){
+     /* le cors de ce site */
+
+    .title-entete{
+        top: 190px;
+       }
+    .imageYemei{
+        height: 660px;
+       }
+
+       /* la section presentation */
+
+    .imgMan{
+        width: 307px !important;
+        height: 410px !important;
+        z-index: 1;
+        margin: 0px;
+      }
+      .imgWomen{
+        position: absolute;
+          width: 335px !important;
+          height: 410px !important;
+          left: 210px;
+        
+      }
+      
+}
+
+
+
