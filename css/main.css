@@ -38,15 +38,7 @@ head{
 
 }
 
-nav{
-  z-index: 4 !important;
-  display: flex;
-  justify-content: center !important;
-  width: 100%;
-  background-color: var(--navBar-) !important;
-  padding: 0 !important;
-  overflow: hidden;
-}
+
 
 .lienk1,
 .lienk2,

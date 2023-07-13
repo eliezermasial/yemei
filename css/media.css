@@ -1,11 +1,32 @@
 @media (max-width:768px)  {
-    /* le cors de ce site */
-    .title-entete{
+  .navPrincipal{
+    display: none !important;
+  }
+  .navMenu{
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .navMenu li button{
+    background-color: rgba(29, 29, 29, 0.856);
+    border: 2px solid  rgba(104, 103, 102, 0.171);
+    box-shadow: none !important;
+  }
+  
+  svg{
+    stroke: aliceblue;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+
+  /* le cors de ce site */
+
+  .title-entete{
         top: 151px;
-       }
-    .imageYemei{
+  }
+  .imageYemei{
         height: 500px;
-       }
+  }
 
        /* la section presentation */
     .imgMan{
@@ -77,6 +98,15 @@
 } 
 
 @media (min-width:768px)  {
+  nav{
+    z-index: 4 !important;
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+    background-color: var(--navBar-) !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
     /* le cors de ce site */
 
     .title-entete{
@@ -156,6 +186,15 @@
 }
 
 @media (min-width:992px)  {
+  nav{
+    z-index: 4 !important;
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+    background-color: var(--navBar-) !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
      /* le cors de ce site */
 
     .title-entete{
@@ -231,6 +270,15 @@
 }
 
 @media (min-width:1200px){
+  nav{
+    z-index: 4 !important;
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+    background-color: var(--navBar-) !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
      /* le cors de ce site */
 
     .title-entete{
