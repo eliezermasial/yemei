@@ -164,7 +164,43 @@ a{
 	-webkit-transform: skew(-15deg,0deg);
 	transform: skew(-15deg,0deg);
  }
+/* la section confiance */
 
+.confiance{
+  background-color: #D3D3D3;
+}
+.logoUtilise{
+  width: 100%;
+}
+.list-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* la section nos news */
+.button-New{
+  border: 1px solid #222 !important;
+  background-color: transparent;
+  color: #222;
+
+	-moz-transform: skew(-15deg,0deg);
+	-o-transform: skew(-15deg,0deg);
+	-webkit-transform: skew(-15deg,0deg);
+	transform: skew(-15deg,0deg);
+}
+/* la section commenteur */
+.commenteur{
+  background-color: #F5F5F5;
+}
+.eliezer{
+  position: absolute;
+  left: 640px;
+  top: 120px;
+  background-color: #F5F5F5;
+  width: 50px !important;
+  height: 50px !important;
+  clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+}
  
 
 
