@@ -24,22 +24,22 @@
 
 <body>
   <head>
-    <nav class="nav navbar-expand ">
+    <nav id="navbar" class="nav navbar-expand " id="nav">
       <ul class="navbar-nav navPrincipal">
         <li class="nav-item lienk1">
-          <a href="#" class="nav-link">Accueil</a>
+          <a href="#accueil" class="nav-link">Accueil</a>
         </li>
         <li class="nav-item lienk2">
-          <a href="#" class="nav-link">Yemeï</a>
+          <a href="#qui sommes-nous" class="nav-link">Yemeï</a>
         </li>
         <li class="nav-item lienk3">
           <img class="img-fluid logo" style="width: 131px !important;height: 90px !important;" src="img/YEMEÏ2_Plan de travail 1 - black 1.png" alt="logo" srcset="">
         </li>
         <li class="nav-item lienk4">
-          <a href="#" class="nav-link">Réalisations</a>
+          <a href="#Nos Réalisations" class="nav-link">Réalisations</a>
         </li>
         <li class="nav-item lienk5">
-          <a href="#" class="nav-link">Blog</a>
+          <a href="#blog" class="nav-link">Blog</a>
         </li>
       </ul>
 
@@ -54,35 +54,35 @@
         </li>
       </ul>
       
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width: 100%;background-color: rgb(61, 60, 60);color: aliceblue;">
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel" class="fw-bold" style="font-size: 25px;">Offcanvas right</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-         <div class="col-12">
-          <ul class="navbar-nav" style="display: block !important;">
-            <li class="nav-item">
-              <a href="#" class="nav-link" style="color: aliceblue !important;font-size: 20px;">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Yemeï</a>
-            </li>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width: 100%;background-color: rgb(61, 60, 60);color: aliceblue;">
+        <div class="offcanvas-header" style="background-color: aliceblue;">
+          <li class="offcanvasRightLabel" style="margin: 5px;padding: 2 !important;">
+            <img class="img-fluid logo" style="width: 80px !important;height: 52px !important;" src="img/YEMEÏ2_Plan de travail 1 - black 1.png" alt="logo" srcset="">
+          </li>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="box-shadow: none;"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="col-12">
+
+            <ul class="navbar-nav" style="display: block !important;">
+              <li class="nav-item">
+                <a href="#accueil" target="_blank" class="nav-link" style="color: aliceblue !important;font-size: 20px;">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a href="#qui sommes-nous" target="_blank" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Yemeï</a>
+              </li>
            
-            <li class="nav-item">
-              <a href="#" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Réalisations</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Blog</a>
-            </li>
-          </ul>
-         </div>
+              <li class="nav-item">
+                <a href="#Nos Réalisations" target="_blank" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Réalisations</a>
+              </li>
+              <li class="nav-item">
+                <a href="#blog" target="_blank" class="nav-link" style="color: aliceblue !important;font-size: 25px;">Blog</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
       </div>
-  </div>
-
-  
-
-
     </nav>
   </head>
   <!-- Place favicon.ico in the root directory -->
@@ -90,9 +90,10 @@
     <section class="Accueil">
       <div class="container-fluid">
         <div class="row">
+
           <div class="col-12 col-md-12 imageYemei">
             <div class="title-entete p-2">
-              <h1 class="fw-bold">Welcome to Yemeï</h1>
+              <h1 class="fw-bold" id="accueil">Welcome to Yemeï</h1>
               <span class="fw-ligh">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</span>
               <div class="bottonInfos">
                 <button type="button" class="btn fw-bold bntINfos">En savoir plus</button>
@@ -101,17 +102,20 @@
             </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
-    <section class="presentation">
+
+    <section class="presentation" id="qui sommes-nous">
       <div class="container">
         <div class="row">
+
           <div class="col-12 col-md-6 imagePresentes pt-4">
             <img src="./img/business-3d-black-businessman-in-blue-suit-with-peace-sign-hand 1.png" alt="" class="imgMan">
             <img src="./img/business-3d-black-businesswoman-in-brown-suit-with-phone-looking-straight 1.png" alt="" class="imgWomen">
-           
           </div>
+
           <div class="col-12 col-md-6 kisomeNous pt-3">
             <h2 class="fw-bold mb-3 p-3">Qui sommes-nous ?</h2>
             <div class="paragraph pt-3">
@@ -120,10 +124,12 @@
               <button type="button" class="btn fw-bold btnInfoPlus mt-5">En savoir plus</button>
             </div>
           </div>
+
         </div>
       </div>
     </section>
-    <section class="services">
+
+    <section class="services" id="qui sommes-nous">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12  contenyService">
@@ -160,7 +166,7 @@
         </div>
       </div>
     </section>
-    <section class="nos-Realisation">
+    <section class="nos-Realisation" id="Nos Réalisations">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12 contenu-realiser">
@@ -213,6 +219,7 @@
         </div>
       </div>
     </section>
+
     <section class="nos-New mb-5">
       <div class="container">
         <div class="row">
@@ -236,31 +243,61 @@
         </div>
       </div>
     </section>
-    <section class="commenteur mb-5">
+
+    <section class="commenteur" id="blog">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 p-0" style="background-color: red;display: flex;position: relative;">
-            <div class="col-6 col-md-7" style="background-color: black;display: flex;justify-content: center;align-items: center;height: 54vh;">
-              <div style="width: 50%;background-color: yellow;font-size: 12px;">
+          <div class="col-12 col-md-12 p-0 mt-5 mb-5 temoignage">
+            <div class="col-10 col-md-7 block-commenteur">
+              <div class="affichCommenteur">
                 <p style="margin-top: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero, eveniet quas nisi placeat voluptatum voluptas quidem consequatur reiciendis, ducimus dolorum omnis enim perspiciatis veniam tenetur quo nihil laboriosam animi?</p>
                 <div>
-                  <img class="img-fluid" src="img/Ellipse 4.png" alt="">
+                  <img class="img-fluid" src="img/Ellipse 4.png" alt="Ellipse">
                 </div>
               </div>
-              
             </div>
-            <div class="eliezer">
-              j
-            </div>
-            <div class="col-6 col-md-5 p-2" style="background-color: blue;height: 50%;margin-top: 6%">
-              <h2 class="fw-bold">Nos clients en parle</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+
+            <div class="pyrogom"></div>
+
+            <div class="col-10 col-md-5 p-2 temoignageClients">
+              <h2 class="fw-bol">Nos clients en parle</h2>
+              <p style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
   </main>
+  <footer class="pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 contacts">
+          <h3>Contacts</h3>
+          <div>
+            <p>1123 Gombe, Immeuble
+              de la Primature - Kinshasa</p>
+            <p>contact@yemei.com</p>
+            <p>+243 81 00 00 000</p>
+          </div>
+        </div>
+        <div class="col-md-4 Suivez-nous">
+          <h3 class="ms-0">Suivez-nous </h3>
+          <div class="pb-0 pt-1">
+            <input type="mail" class="form-control inputText" required placeholder="inserer votre mail ici">
+            <p class="mt-2 mb-0">Abonnez-vous à notre newsletter pour reçevoir régulièrement de nos nouvelles et opportunités</p>
+          </div>
+        </div>
+        <div class="col-md-4 liens-sociaux">
+          <h3>Liens Sociaux</h3>
+          <div class="ms-1">
+            <img src="img/Ellipse 7.png" alt="" class="img-fluid">
+            <img src="img/Ellipse 7.png" alt="" class="img-fluid">
+            <img src="img/Ellipse 7.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
  
 
   <!-- Add your site or application content here -->

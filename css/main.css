@@ -34,21 +34,17 @@ html {
 /* la mise en forme de l'entete du site la barre de navigation */
 head{
   z-index: 20 !important;
-  
-
 }
-
-
 
 .lienk1,
-.lienk2,
-.lienk4,
-.lienk5{
-  position: relative;
-  font-weight: 500 !important;
-  top: 25px;
-  height: 43px;
-}
+  .lienk2,
+  .lienk4,
+  .lienk5{
+    position: relative;
+    font-weight: 500 !important;
+    top: 25px;
+    height: 43px;
+  }
 .lienk3{
   padding-left: 20px;
   padding-right: 20px;
@@ -192,15 +188,56 @@ a{
 .commenteur{
   background-color: #F5F5F5;
 }
-.eliezer{
-  position: absolute;
-  left: 640px;
-  top: 120px;
-  background-color: #F5F5F5;
-  width: 50px !important;
-  height: 50px !important;
-  clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+.temoignage{
+  position: relative;
+  display: flex;
 }
+.block-commenteur{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54vh;
+  background-color: black;
+  color: #f5f5f5c2;
+}
+.affichCommenteur{
+  width: 50%;
+  font-size: 12px;
+  background-color: #2222221c;
+}
+/* la partie offcanvas */
+
+.offcanvas-body li{
+  background-color: #2222221c;
+  border: 1px solid #f5f5f559;
+  border-radius: 8px;
+  margin: 5px !important;
+  transition: color 0.35s ease-in-out, background-color 0.45s ease-in-out;
+}
+.offcanvas-body li:hover{
+  background-color: black;
+  border: 1px solid #f5f5f54d;
+  border-radius: 8px;
+  margin: 5px !important;
+}
+.text-reset:hover{
+  padding: 10px !important;
+  background-color: #f5f5f53a;
+}
+/* la partie footer */
+footer{
+  background-color: #000000;
+  color: #d3d3d39d !important;
+  padding-top: 10px;
+}
+footer .Suivez-nous{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
  
 
 

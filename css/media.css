@@ -1,4 +1,5 @@
 @media (max-width:768px)  {
+
   .navPrincipal{
     display: none !important;
   }
@@ -11,127 +12,139 @@
     border: 2px solid  rgba(104, 103, 102, 0.171);
     box-shadow: none !important;
   }
-  
   svg{
-    stroke: aliceblue;
+    stroke: var(--aliceblue-);
     width: 40px !important;
     height: 40px !important;
   }
-  
-
   /* le cors de ce site */
-
   .title-entete{
-        top: 151px;
+    top: 151px;
   }
   .imageYemei{
-        height: 500px;
+    height: 500px;
+  }
+  /* la section presentation */
+  .imgMan{
+    width: 235px !important;
+    height: 410px !important;
+    margin: 0px;
+    z-index: 1;
+  }
+  .imgWomen{
+    position: absolute;
+    width: 200px !important;
+    height: 410px !important;
+    left: 156px;
   }
 
- /* la section presentation */
-    .imgMan{
-        width: 235px !important;
-        height: 410px !important;
-        z-index: 1;
-        margin: 0px;
-      }
-      .imgWomen{
-        position: absolute;
-          width: 200px !important;
-          height: 410px !important;
-          left: 156px;
-      }
-      .kisomeNous{
-        padding-top: 1% !important;
-      }
-      .kisomeNous h2{
-        padding-bottom: 0px !important;
-      }
-      .kisomeNous .btnInfoPlus{
-        margin-top: 2% !important;
-        
-      }
-      .kisomeNous .paragraph{
-        font-size: 12px !important;
-        padding-top: 1% !important;
-      }
+  .kisomeNous{
+    padding-top: 1% !important;
+  }
+  .kisomeNous h2{
+    padding-bottom: 0px !important;
+  }
+
+  .kisomeNous .btnInfoPlus{
+    margin-top: 2% !important;  
+    margin-bottom: 1% !important;
+  }
+
+  .kisomeNous .paragraph{
+    font-size: 12px !important;
+    padding-top: 1% !important;
+  }
   /* la section service */
       
-      .contenyService{
-        display: flex;
-        justify-content: center;
-        margin-top: 5%;
-        margin-bottom: 5%;
-       }
-       .infoService{
-        display: flex;
-        flex-direction: column;
-        margin-top: 0 !important;
-        padding: 0 !important;
-       }
-       .infoService p{
-        margin-top: 0 !important;
-        text-align: justify;
-       }
-      .bloc-Rectangle{
-        min-width: 100% !important;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 5% !important;
-        }
-       .conteny-rectagles{
-         position: relative;
-         margin-top: 1%;
-         padding-top: 10px;
-        }
-        .Rectangle11{
-          width: 98% !important;
-          margin-right: 10px !important;
-          
-         }
+  .contenyService{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .infoService{
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .infoService p{
+    margin-top: 0 !important;
+    text-align: justify;
+  }
+
+  .bloc-Rectangle{
+    display: flex;
+    flex-direction: column;
+    min-width: 100% !important;
+    margin-bottom: 5% !important;
+  }
+
+  .conteny-rectagles{
+    position: relative;
+    margin-top: 1%;
+    padding-top: 10px;
+  }
+
+  .Rectangle11{
+    width: 98% !important;
+    margin-right: 10px !important;   
+  }
+
   .Rectangle12{
-        width: 98% !important;
-        z-index: 1;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        left: 5px;
-        bottom: 2px;
-     } 
+    position: absolute;
+    width: 98% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 5px;
+    bottom: 2px;
+    z-index: 1;
+  } 
+
   .Rectangle12 svg{
-      width: 60px !important;
-      height: 60px !important;
-    }
+    width: 60px !important;
+    height: 60px !important;
+  }
 
   /* la section nos services realisé */
+
   .realiserInfos{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-right: 0 !important;
-   }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0 !important;
+  }
+
   .paragraph-Realisation{
-      width: 50%;
-      padding: 10px;
-      font-size: 8px; 
-    }
+    width: 50%;
+    padding: 10px;
+    font-size: 8px; 
+  }
+
   /* la section confiance */
+
   .logoUtilise{
     padding: 10px;
   }
+
   .list-logo li{
-   margin-left: 4px;
-   margin-right: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
+ 
   /* la section nos news */
+
   .contenu-new{
     text-align: center;
     padding-left: 10px !important;
   }
+
   .contenu-new h2{
     margin-top: 10% !important;
   }
@@ -154,9 +167,57 @@
   .block-newImage div{
     padding: 2px !important;
   }
+  /* la section commenteur */
+  .temoignage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px !important;
+    margin-bottom: 0 !important;
+  }
+  .affichCommenteur{
+    width: 70% !important;
+    font-size: 8px;
+  }
+  .block-commenteur{
+    position: relative !important;
+    width: 100% !important;
+    justify-content: start !important;
+    padding-left: 10px !important;
+    height: 44vh !important;
+  }
+  .temoignageClients{
+    width: 100% !important;
+  }
+  .pyrogom{
+    display: none;
+    position: absolute;
+    left: 210px;
+    top: 85px !important;
+    background-color: #F5F5F5;
+    width: 50px !important;
+    height: 50px !important;
+    clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+  }
+  /* la partie footer */
+  footer .Suivez-nous{
+    display: block !important;
+    padding-bottom: 10px !important;
+  }
+  footer h3{
+    margin-bottom: 0 !important;
+  }
+  footer .liens-sociaux{
+    padding-bottom: 10px !important;
+    text-align: justify !important;
+  }
+  footer .liens-sociaux div{
+    margin-left: 0 !important;
+  }
+
+
 
 } 
-
 
 @media (min-width:768px)  {
   nav{
@@ -168,131 +229,151 @@
     padding: 0 !important;
     overflow: hidden;
   }
-    /* le cors de ce site */
+  /* le cors de ce site */
 
-    .title-entete{
-        top: 190px;
-       }
-    .imageYemei{
-        height: 660px;
-       }
-       
-       /* la section presentation */
+  .title-entete{
+    top: 190px;
+  }
+  .imageYemei{
+    height: 660px;
+  }
 
-       .kisomeNous{
-        padding-top: 2% !important;
-      }
-      .kisomeNous h2{
-        padding-bottom: 0px !important;
-      }
-      .kisomeNous .btnInfoPlus{
-        margin-top: 3% !important;
-        
-      }
-      .kisomeNous .paragraph{
-        padding-top: 1% !important;
-      }
-    .imgMan{
-        width: 233px !important;
-        height: 410px !important;
-        z-index: 1;
-        margin: 0px;
-      }
-      .imgWomen{
-        position: absolute;
-        width: 190px !important;
-        height: 410px !important;
-        left: 156px;
-      }
+  /* la section presentation */
+  .kisomeNous{
+    padding-top: 2% !important;
+  }
+  .kisomeNous h2{
+    padding-bottom: 0px !important;
+  }
+  .kisomeNous .btnInfoPlus{
+    margin-top: 3% !important;    
+  }
+  .kisomeNous .paragraph{
+    padding-top: 1% !important;
+  }
+  .imgMan{
+    width: 233px !important;
+    height: 410px !important;
+    margin: 0px;
+    z-index: 1;
+  }
+  .imgWomen{
+    position: absolute;
+    width: 190px !important;
+    height: 410px !important;
+    left: 156px;
+  }
 
-   /* section nos service */
-   .services{
+  /* section nos service */
+
+  .services{
     height: 840px ;
   }
-     
-   .contenyService{
+  .contenyService{
     display: flex;
     justify-content: center;
     margin-top: 17%;
-   }
-   .infoService{
+  }
+  .infoService{
     display: flex;
     align-items: center;
     flex-direction: column;
-   }
-   .infoService p{
+  }
+  .infoService p{
     margin-top: 5% !important;
     text-align: center;
-   }
-   
+  }
   .bloc-Rectangle{
     font-size: 13px;
-     margin-top: 2%;
-    }
+    margin-top: 2%;
+  }
 
-   .conteny-rectagles{
-     position: relative;
-     display: flex;
-     margin-top: 10%;
-    
-    }
-    .Rectangle11{
-      width: 180px !important;
-     }
-.Rectangle12{
-    width: 203px !important;
-    z-index: 1;
+  .conteny-rectagles{
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+  }
+  .Rectangle11{
+    width: 180px !important;
+  }
+  .Rectangle12{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    width: 203px !important;
+    height: 100vh;
     text-align: center;
     font-size: 11px;
     left: 5px;
     bottom: 2px;
-    height: 100vh;
     padding: 10px;
-}
-.Rectangle12 svg{
-   width: 40px !important;
-   height: 40px;
- }
+    z-index: 1;
+  }
+  .Rectangle12 svg{
+    width: 40px !important;
+    height: 40px;
+  }
 
- /* la section nos services realisé */
+  /* la section nos services realisé */
   .realiserInfos{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      padding-right: 0 !important;
-    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0 !important;
+  }
   .paragraph-Realisation{
     width: 50%;
     padding: 10px;
     font-size: 11px;
-    }
-    /* la section confiance */
-    .logoUtilise{
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .list-logo li{
-     margin-left: 10px;
-     margin-right: 10px;
-    }
-     /* la section nos new */
-     .contenu-new{
-      padding-left: 10px !important;
-      
-    }
-    .contenu-new h2{
-      margin-top: 40% !important;
-    }
-    .button-New{
-     
-      margin-top: 5% !important;
-    }
+  }
+
+  /* la section confiance */
+  .logoUtilise{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .list-logo li{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* la section nos new */
+  .contenu-new{
+    padding-left: 10px !important;
+  }
+  .contenu-new h2{
+    margin-top: 40% !important;
+  }
+  .button-New{
+    margin-top: 5% !important;
+  }
+  /* la section commenteur */
+  .temoignage{
+    padding: 10px;
+  }
+  .temoignageClients{
+    margin-top: 6%;
+    height: 50%;
+  }
+  .pyrogom{
+    position: absolute;
+    left: 395px;
+    top: 130px;
+    background-color: #F5F5F5;
+    width: 50px !important;
+    height: 50px !important;
+    clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+  }
+  /* la partie footer */
+  footer .contacts{
+    padding-left: 0 !important;
+  }
+  footer .liens-sociaux{
+    text-align: end !important;
+  }
     
 }
 
@@ -306,120 +387,138 @@
     padding: 0 !important;
     overflow: hidden;
   }
-     /* le cors de ce site */
 
-    .title-entete{
-        top: 190px;
-       }
-    .imageYemei{
-        height: 660px;
-       }
-       /* la section presentation */
+  /* le cors de ce site */
 
-       .kisomeNous{
-        padding-top: 2% !important;
-      }
-      .kisomeNous h2{
-        padding-bottom: 0px !important;
-      }
-      .kisomeNous .btnInfoPlus{
-        margin-top: 10% !important;
-        
-      }
-      .kisomeNous .paragraph{
-        padding-top: 3% !important;
-      }
+  .title-entete{
+    top: 190px;
+  }
+  .imageYemei{
+    height: 660px;
+  }
 
-    .imgMan{
-        width: 297px !important;
-        height: 420px !important;
-        z-index: 1;
-        margin: 0px;
-      }
-      .imgWomen{
-        position: absolute;
-          width: 254px !important;
-          height: 420px !important;
-          left: 195px;
-        
-      }
+  /* la section presentation */
 
-      /* section nos service */
-      .services{
-        height: 840px ;
-      }
-     
-      .contenyService{
-        display: flex;
-        justify-content: center;
-        margin-top: 11%;
-       }
-       .infoService{
-        width: 51%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       }
-       .infoService p{
-        text-align: center;
-       }
-       
-      .bloc-Rectangle{
-         margin-top: 7%;
-        }
-
-       .conteny-rectagles{
-         position: relative;
-         display: flex;
-         margin-top: 5%;
-         margin-bottom: 10%;
-        }
-       .Rectangle12{
-          z-index: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          position: absolute;
-          text-align: center;
-          font-size: 11px;
-          left: 5px;
-          height: 100vh;
-          bottom: 2px;
-          padding: 10px;
-         }
-         .Rectangle12 svg{
-          width: 40px !important;
-          height: 40px;
-         }
-           /* la section nos services realisé */
-           .realiserInfos{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-           }
-           .paragraph-Realisation{
-            width: 50%;
-            padding: 10px;
-            font-size: 12px;
-           }
-            /* la section nos new */
-    .contenu-new{
-      padding-left: 10px !important;
-      
-    }
-    .contenu-new h2{
-      margin-top: 50% !important;
-    }
-    .button-New{
-     
-      margin-top: 5% !important;
-    }
+  .kisomeNous{
+    padding-top: 2% !important;
+  }
+  .kisomeNous h2{
+    padding-bottom: 0px !important;
+  }
+  .kisomeNous .btnInfoPlus{
+    margin-top: 10% !important;
+  }
+  .kisomeNous .paragraph{
+    padding-top: 3% !important;
+  }
+  .imgMan{
+    width: 297px !important;
+    height: 420px !important;
+    z-index: 1;
+    margin: 0px;
+  }
+  .imgWomen{
+    position: absolute;
+    width: 254px !important;
+    height: 420px !important;
+    left: 195px;
+  }
+  /* section nos service */
+  .services{
+    height: 840px ;
+  }
+  .contenyService{
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+  }
+  .infoService{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 51%;
+  }
+  .infoService p{
+    text-align: center;
+  }
+  .bloc-Rectangle{
+    margin-top: 7%;
+  }
+  .conteny-rectagles{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .Rectangle12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    font-size: 11px;
+    left: 5px;
+    height: 100vh;
+    bottom: 2px;
+    padding: 10px;
+    z-index: 1;
+  }
+  .Rectangle12 svg{
+    width: 40px !important;
+    height: 40px;
+  }
+  /* la section nos services realisé */
+  .realiserInfos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragraph-Realisation{
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  /* la section nos new */
+  .contenu-new{
+    padding-left: 10px !important;
+  }
+  .contenu-new h2{
+    margin-top: 50% !important;
+  }
+  .button-New{
+    margin-top: 5% !important;
+  }
+  /* la section commenteur */
+  .temoignage{
+    padding: 10px;
+  }
+  .temoignageClients{
+    margin-top: 6%;
+    height: 50%;
+  }
+  .pyrogom{
+    position: absolute;
+    left: 535px;
+    top: 130px;
+    background-color: #F5F5F5;
+    width: 50px !important;
+    height: 50px !important;
+    clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+  }
+  /* la partie footer */
+  footer .contacts{
+    padding-left: 0 !important;
+  }
+  footer .liens-sociaux{
+    text-align: end !important;
+  }
        
 }
 
 @media (min-width:1200px){
+
   nav{
     z-index: 4 !important;
     display: flex;
@@ -429,95 +528,113 @@
     padding: 0 !important;
     overflow: hidden;
   }
-     /* le cors de ce site */
+  /* le cors de ce site */
+  .title-entete{
+    top: 190px;
+  }
+  .imageYemei{
+    height: 660px;
+  }
 
-    .title-entete{
-        top: 190px;
-       }
-    .imageYemei{
-        height: 660px;
-       }
+  /* la section presentation */
 
-       /* la section presentation */
-
-    .imgMan{
-        width: 307px !important;
-        height: 410px !important;
-        z-index: 1;
-        margin: 0px;
-      }
-      .imgWomen{
-        position: absolute;
-          width: 335px !important;
-          height: 410px !important;
-          left: 210px;
-        
-      }
-      /* section nos service */
-      .services{
-        height: 840px ;
-      }
-      .contenyService{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: 11%;
-       }
-       .infoService{
-        width: 71%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       }
-      .bloc-Rectangle{
-         margin-top: 5%;
-        }
-       .conteny-rectagles{
-         position: relative;
-         display: flex;
-         margin-top: 5%;
-        }
-       .Rectangle12{
-          z-index: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          position: absolute;
-          text-align: center;
-          font-size: 11px;
-          height: 100vh;
-          left: 5px;
-          bottom: 2px;
-          padding: 10px;
-         }
-         .Rectangle12 svg{
-          width: 40px !important;
-          height: 40px;
-         }
-         /* la section nos services realisé */
-         .realiserInfos{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-         }
-         .paragraph-Realisation{
-          width: 50%;
-          padding: 10px;
-          font-size: 12px;
-         }
-    /* la section nos new */
-    .contenu-new{
-      padding-left: 10px !important;
-      
-    }
-    .contenu-new h2{
-      margin-top: 50% !important;
-    }
-    .button-New{
-     
-      margin-top: 5% !important;
-    }
+  .imgMan{
+    width: 307px !important;
+    height: 410px !important;
+    margin: 0px;
+    z-index: 1;
+  }
+  .imgWomen{
+    position: absolute;
+    width: 335px !important;
+    height: 410px !important;
+    left: 210px;
+  }
+  /* section nos service */
+  .services{
+    height: 840px ;
+  }
+  .contenyService{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 11%;
+  }
+  .infoService{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 71%;
+  }
+  .bloc-Rectangle{
+    margin-top: 5%;
+  }
+  .conteny-rectagles{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+  }
+  .Rectangle12{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+    height: 100vh;
+    left: 5px;
+    bottom: 2px;
+    padding: 10px;
+    z-index: 1;
+  }
+  .Rectangle12 svg{
+    width: 40px !important;
+    height: 40px;
+  }
+  /* la section nos services realisé */
+  .realiserInfos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragraph-Realisation{
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  /* la section nos new */
+  .contenu-new{
+    padding-left: 10px !important;
+  }
+  .contenu-new h2{
+    margin-top: 50% !important;
+  }
+  .button-New{
+    margin-top: 5% !important;
+  }
+  /* la section commenteur */
+  .temoignageClients{
+    margin-top: 6%;
+    height: 50%;
+  }
+  .pyrogom{
+    position: absolute;
+    left: 640px;
+    top: 130px;
+    background-color: #F5F5F5;
+    width: 50px !important;
+    height: 50px !important;
+    clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
+  }
+  /* la partie footer */
+  footer .contacts{
+    padding-left: 0 !important;
+  }
+  footer .liens-sociaux{
+    text-align: end !important;
+  }
+  
          
 }
 
