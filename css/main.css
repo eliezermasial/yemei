@@ -7,18 +7,18 @@
 
 /* integration de police space grotesk. */
 @font-face {
-  font-family: 'Space Grotesk'!important;
-  src: url('fonts/SpaceGrotesk-Regular');
+  font-family: 'SpaceGrotesk';
+  src: url('/fonts/SpaceGrotesk-Regular.ttf');
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Space Grotesk'!important;
-  src: url('fonts/SpaceGrotesk-Bold');
+  font-family: 'SpaceGrotesk';
+  src: url('/fonts/SpaceGrotesk-Bold.ttf');
   font-weight: 700;
 }
 /* arrangement de feuille des elements parents */
 body{
-  font-family: "Space Grotesk",sans-serif !important;
+  font-family: "SpaceGrotesk",sans-serif ;
   font-size: 15px;
   box-sizing: border-box;
   text-transform: capitalize;
@@ -26,7 +26,7 @@ body{
 }
 
 html {
-  font-family: "Space Grotesk",sans-serif !important;
+  font-family: "SpaceGrotesk",sans-serif;
   color: #222;
   font-size: 15px;
   line-height: 1.4;
@@ -234,6 +234,12 @@ footer .Suivez-nous{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
+
+.agenceHeader{
+  background-color: red;
 }
 
 

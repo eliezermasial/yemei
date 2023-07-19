@@ -3,36 +3,40 @@ function media (){
     let mediaMobil = window.matchMedia("(max-width:768px)")
 
     if(mediaGeneral.matches){
-        const navbar = document.getElementById('navbar')
-        console.log(mediaGeneral)
+        const nav = document.getElementById('nav')
         
         window.addEventListener('scroll',(e)=>{
             e.preventDefault()
-            if(this.scrollY > 560){
-                navbar.innerHTML
-                navbar.style.position = 'fixed'
+            if(this.scrollY >= 560){
+                nav.innerHTML
+                nav.style.position = 'fixed'
                 
-            } else if(this.scrollY < 560){
-                navbar.innerHTML
-                navbar.style.position = 'relative'
+            } else if(this.scrollY <= 559){
+                nav.innerHTML
+                nav.style.position = 'relative'
             }
         })
 
     } else if(mediaMobil.matches){
         const navMenu = document.getElementById("navMenu")
+        const nav = document.getElementById('nav')
+        
 
         window.addEventListener('scroll',(e)=>{
             e.preventDefault()
-            if(this.scrollY > 510){
-
+            
+            if(this.scrollY >= 510){
+                
                 navMenu.innerHTML
                 navMenu.style.backgroundColor = 'white'
                 navMenu.style.zIndex = '4'
                 navMenu.style.position = 'fixed'
 
-            } else if(this.scrollY < 510){
+            } else if(this.scrollY <= 509){
+                
                 navMenu.style.position = 'relative'
                 navMenu.style.backgroundColor = 'transparent'
+
             }
 
         })
@@ -40,7 +44,8 @@ function media (){
 
 }
 
-window.addEventListener("resize",media)
+
+media()
 
 
 
