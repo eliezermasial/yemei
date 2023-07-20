@@ -3,10 +3,16 @@
   .navPrincipal{
     display: none !important;
   }
+  
   .navMenu{
     display: flex !important;
     justify-content: space-between !important;
   }
+  
+  .navMenu .logo{
+    width: 80px !important;
+  }
+
   .navMenu li button{
     background-color: rgba(29, 29, 29, 0.856);
     border: 2px solid  rgba(104, 103, 102, 0.171);
@@ -140,17 +146,45 @@
  
   /* la section nos news */
 
-  .contenu-new{
-    text-align: center;
-    padding-left: 10px !important;
+  .contenu-nosNew{
+    display: block !important;
+    padding-top: 0 !important;
+    padding: 10px !important;
   }
 
-  .contenu-new h2{
-    margin-top: 10% !important;
+  .contenu-new{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 5% !important;
   }
+
+  .block-newImage{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-newImage div{
+    width: 100% ;
+    padding: 0 !important;
+    margin-bottom: 10px;
+  }
+  
+  .block-newImage div img{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  
+  .contenu-new h2{
+    margin-top: 5% !important;
+  }
+
   .button-New{
     margin-top: 5% !important;
   }
+
   .button-New{
     border: 1px solid #222 !important;
     background-color: transparent;
@@ -161,19 +195,16 @@
     -webkit-transform: skew(-15deg,0deg);
     transform: skew(-15deg,0deg);
   }
-  .block-newImage{
-    padding-right: 5px !important;
-  }
-  .block-newImage div{
-    padding: 2px !important;
-  }
+  
   /* la section commenteur */
+
   .temoignage{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px !important;
     margin-bottom: 0 !important;
+    
   }
   .affichCommenteur{
     width: 70% !important;
@@ -200,20 +231,8 @@
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
   /* la partie footer */
-  footer .Suivez-nous{
-    display: block !important;
-    padding-bottom: 10px !important;
-  }
-  footer h3{
-    margin-bottom: 0 !important;
-  }
-  footer .liens-sociaux{
-    padding-bottom: 10px !important;
-    text-align: justify !important;
-  }
-  footer .liens-sociaux div{
-    margin-left: 0 !important;
-  }
+ 
+
 } 
 
 @media (min-width:768px)  {
@@ -231,29 +250,36 @@
   .title-entete{
     top: 190px;
   }
+
   .imageYemei{
     height: 660px;
   }
 
   /* la section presentation */
+
   .kisomeNous{
     padding-top: 2% !important;
   }
+
   .kisomeNous h2{
     padding-bottom: 0px !important;
   }
+
   .kisomeNous .btnInfoPlus{
     margin-top: 3% !important;    
   }
+
   .kisomeNous .paragraph{
     padding-top: 1% !important;
   }
+
   .imgMan{
     width: 233px !important;
     height: 410px !important;
     margin: 0px;
     z-index: 1;
   }
+
   .imgWomen{
     position: absolute;
     width: 190px !important;
@@ -266,11 +292,13 @@
   .services{
     height: 840px ;
   }
+
   .contenyService{
     display: flex;
     justify-content: center;
     margin-top: 17%;
   }
+
   .infoService{
     display: flex;
     align-items: center;
@@ -289,28 +317,6 @@
     position: relative;
     display: flex;
     margin-top: 10%;
-  }
-  .Rectangle11{
-    width: 180px !important;
-  }
-  .Rectangle12{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 203px !important;
-    height: 100vh;
-    text-align: center;
-    font-size: 11px;
-    left: 5px;
-    bottom: 2px;
-    padding: 10px;
-    z-index: 1;
-  }
-  .Rectangle12 svg{
-    width: 40px !important;
-    height: 40px;
   }
 
   /* la section nos services realisé */
@@ -346,7 +352,8 @@
   }
   .button-New{
     margin-top: 5% !important;
-  }
+  } 
+
   /* la section commenteur */
   .temoignage{
     padding: 10px;
@@ -364,14 +371,7 @@
     height: 50px !important;
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
-  /* la partie footer */
-  footer .contacts{
-    padding-left: 0 !important;
-  }
-  footer .liens-sociaux{
-    text-align: end !important;
-  }
-    
+   
 }
 
 @media (min-width:992px)  {
@@ -441,31 +441,9 @@
   .bloc-Rectangle{
     margin-top: 7%;
   }
-  .conteny-rectagles{
-    position: relative;
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 10%;
-  }
-  .Rectangle12{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    font-size: 11px;
-    left: 5px;
-    height: 100vh;
-    bottom: 2px;
-    padding: 10px;
-    z-index: 1;
-  }
-  .Rectangle12 svg{
-    width: 40px !important;
-    height: 40px;
-  }
+
   /* la section nos services realisé */
+
   .realiserInfos{
     width: 100%;
     display: flex;
@@ -478,6 +456,7 @@
     font-size: 12px;
   }
   /* la section nos new */
+  
   .contenu-new{
     padding-left: 10px !important;
   }
@@ -485,7 +464,9 @@
     margin-top: 50% !important;
   }
   .button-New{
+    
     margin-top: 5% !important;
+    
   }
   /* la section commenteur */
   .temoignage{
@@ -495,6 +476,7 @@
     margin-top: 6%;
     height: 50%;
   }
+
   .pyrogom{
     position: absolute;
     left: 535px;
@@ -504,14 +486,7 @@
     height: 50px !important;
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
-  /* la partie footer */
-  footer .contacts{
-    padding-left: 0 !important;
-  }
-  footer .liens-sociaux{
-    text-align: end !important;
-  }
-       
+
 }
 
 @media (min-width:1200px){
@@ -563,6 +538,7 @@
     flex-direction: column;
     width: 71%;
   }
+  /*
   .bloc-Rectangle{
     margin-top: 5%;
   }
@@ -588,7 +564,7 @@
   .Rectangle12 svg{
     width: 40px !important;
     height: 40px;
-  }
+  } */
   /* la section nos services realisé */
   .realiserInfos{
     display: flex;
@@ -627,9 +603,6 @@
   /* la partie footer */
   footer .contacts{
     padding-left: 0 !important;
-  }
-  footer .liens-sociaux{
-    text-align: end !important;
   }
   
          

@@ -52,6 +52,29 @@ head{
 a{
   color: var(--linkColor-)!important;
 }
+
+.logo{
+  width: 131px !important;
+}
+
+.navMenu{
+  display: none;
+  width: 100%;
+}
+.offcanvas{
+  
+  background-color: rgb(61, 60, 60);
+  color: aliceblue;
+}
+
+.offcanvas-header{
+  background-color: aliceblue;
+}
+
+.offcanvasRightLabel .logo{
+  width: 80px !important;
+}
+
 /* le cors de ce site */
  .container-fluid{
   position: relative;
@@ -88,11 +111,14 @@ a{
   font-size: 12px;
   line-height: 19.14px;
  }
+
  .bottonInfos{
   position: absolute;
   bottom: 0;
  }
+
  .bottonInfos .bntINfos{
+  margin-right: 10px;
   color: #222;
   border: 1px solid var(--navBar-) !important;
   background-color: var(--navBar-);
@@ -102,7 +128,9 @@ a{
 	-webkit-transform: skew(-15deg,0deg);
 	transform: skew(-15deg,0deg);
  }
+ 
  .bottonInfos .btnCOntact{
+  margin-left: 10px;
   color: var(--navBar-);
   
   border: 1px solid var(--navBar-) !important;
@@ -119,7 +147,9 @@ a{
   position: relative !important;
 }
  .btnInfoPlus{
+  width: 167px;
   border: 1px solid #222 !important;
+  border-radius: 0;
   background-color: #222;
   color: var(--navBar-);
 	-moz-transform: skew(-15deg,0deg);
@@ -136,14 +166,47 @@ a{
   background-position: center;
   padding-bottom: 10%;
  }
+ 
  .infoService h2{
   color: var(--navBar-);
 }
+
  .infoService p{
   color: rgba(255, 255, 255, 0.377);
  }
 
+ .bloc-Rectangle{
+  display: flex;
+  justify-content: center;
+ }
+
+ .Rectangle11{
+  height: 300px;
+  background-color: #D3D3D3;
+ }
+
+ .Rectangle12{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 11px;
+  left: 5px;
+  bottom: 3px;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+.Rectangle12 svg{
+  width: 40px !important;
+  height: 40px;
+}
+
  /* la section nos realisation*/
+
  .contenu-realiser{
   display: flex;
   flex-direction: column;
@@ -151,7 +214,9 @@ a{
  }
 
  .voirPucRealisation{
+  width: 167px;
   border: 1px solid #222 !important;
+  border-radius: 0;
   background-color: transparent;
   color: #222;
 
@@ -165,17 +230,37 @@ a{
 .confiance{
   background-color: #D3D3D3;
 }
+
+.confianceClient{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 249px;
+}
+
+.confianceClient .title{
+  width: 224px;
+  text-align: center;
+}
+
 .logoUtilise{
   width: 100%;
 }
+
 .list-logo{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 /* la section nos news */
+.block-newImage div{
+  padding: 5px;
+}
 .button-New{
+  width: 167px;
   border: 1px solid #222 !important;
+  border-radius: 0;
   background-color: transparent;
   color: #222;
 
@@ -220,20 +305,29 @@ a{
   border-radius: 8px;
   margin: 5px !important;
 }
+
+.text-reset{
+  box-shadow: none !important;
+}
+
 .text-reset:hover{
   padding: 10px !important;
   background-color: #f5f5f53a;
 }
+
+.offcanvas-body ul li a{
+  color: aliceblue !important;
+  font-size: 25px;
+}
+
 /* la partie footer */
+
 footer{
   background-color: #000000;
   color: #d3d3d39d !important;
   padding-top: 10px;
-}
-footer .Suivez-nous{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: justify;
+  overflow: hidden;
 }
 
 /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
