@@ -31,6 +31,8 @@ function media (){
                 navMenu.style.backgroundColor = 'white'
                 navMenu.style.zIndex = '4'
                 navMenu.style.position = 'fixed'
+                navMenu.style.width = '100%'
+                navMenu.style.top = '0'
 
             } else if(this.scrollY <= 509){
                 

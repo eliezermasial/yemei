@@ -327,7 +327,16 @@ footer{
   color: #d3d3d39d !important;
   padding-top: 10px;
   text-align: justify;
-  overflow: hidden;
+}
+footer .Suivez-nous .nous-contactez{
+  background-color: #FFFFFF;
+}
+footer .Suivez-nous .nous-contactez button{
+  color: #FFFFFF;
+}
+footer .Suivez-nous input{
+  border-radius: 0;
+  background-color: #000000;
 }
 
 /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
