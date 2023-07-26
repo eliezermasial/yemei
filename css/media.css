@@ -18,19 +18,25 @@
     border: 2px solid  rgba(104, 103, 102, 0.171);
     box-shadow: none !important;
   }
+
   svg{
-    stroke: var(--aliceblue-);
+    stroke: var(--aliceblue);
     width: 40px !important;
     height: 40px !important;
   }
+
   /* le cors de ce site */
+
   .title-entete{
     top: 151px;
   }
+
   .imageYemei{
     height: 500px;
   }
+
   /* la section presentation */
+
   .imgMan{
     width: 235px !important;
     height: 410px !important;
@@ -47,6 +53,7 @@
   .kisomeNous{
     padding-top: 1% !important;
   }
+
   .kisomeNous h2{
     padding-bottom: 0px !important;
   }
@@ -204,12 +211,13 @@
     align-items: center;
     padding: 10px !important;
     margin-bottom: 0 !important;
-    
   }
+
   .affichCommenteur{
     width: 70% !important;
     font-size: 8px;
   }
+  
   .block-commenteur{
     position: relative !important;
     width: 100% !important;
@@ -217,9 +225,11 @@
     padding-left: 10px !important;
     height: 44vh !important;
   }
+
   .temoignageClients{
     width: 100% !important;
   }
+
   .pyrogom{
     display: none;
     position: absolute;
@@ -230,12 +240,11 @@
     height: 50px !important;
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
-  /* la partie footer */
- 
 
 } 
 
 @media (min-width:768px)  {
+
   nav{
     z-index: 4 !important;
     display: flex;
@@ -245,6 +254,7 @@
     padding: 0 !important;
     overflow: hidden;
   }
+
   /* le cors de ce site */
 
   .title-entete{
@@ -320,6 +330,7 @@
   }
 
   /* la section nos services realisé */
+
   .realiserInfos{
     width: 100%;
     display: flex;
@@ -327,6 +338,7 @@
     align-items: center;
     padding-right: 0 !important;
   }
+
   .paragraph-Realisation{
     width: 50%;
     padding: 10px;
@@ -334,34 +346,42 @@
   }
 
   /* la section confiance */
+
   .logoUtilise{
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .list-logo li{
     margin-left: 10px;
     margin-right: 10px;
   }
 
   /* la section nos new */
+
   .contenu-new{
     padding-left: 10px !important;
   }
+
   .contenu-new h2{
     margin-top: 40% !important;
   }
+
   .button-New{
     margin-top: 5% !important;
   } 
 
   /* la section commenteur */
+
   .temoignage{
     padding: 10px;
   }
+
   .temoignageClients{
     margin-top: 6%;
     height: 50%;
   }
+
   .pyrogom{
     position: absolute;
     left: 395px;
@@ -374,7 +394,9 @@
    
 }
 
+
 @media (min-width:992px)  {
+
   nav{
     z-index: 4 !important;
     display: flex;
@@ -390,6 +412,7 @@
   .title-entete{
     top: 190px;
   }
+
   .imageYemei{
     height: 660px;
   }
@@ -399,45 +422,56 @@
   .kisomeNous{
     padding-top: 2% !important;
   }
+
   .kisomeNous h2{
     padding-bottom: 0px !important;
   }
+
   .kisomeNous .btnInfoPlus{
     margin-top: 10% !important;
   }
+
   .kisomeNous .paragraph{
     padding-top: 3% !important;
   }
+
   .imgMan{
     width: 297px !important;
     height: 420px !important;
     z-index: 1;
     margin: 0px;
   }
+
   .imgWomen{
     position: absolute;
     width: 254px !important;
     height: 420px !important;
     left: 195px;
   }
+
   /* section nos service */
+
   .services{
     height: 840px ;
   }
+
   .contenyService{
     display: flex;
     justify-content: center;
     margin-top: 11%;
   }
+
   .infoService{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 51%;
   }
+
   .infoService p{
     text-align: center;
   }
+
   .bloc-Rectangle{
     margin-top: 7%;
   }
@@ -450,28 +484,33 @@
     justify-content: center;
     align-items: center;
   }
+
   .paragraph-Realisation{
     width: 50%;
     padding: 10px;
     font-size: 12px;
   }
+
   /* la section nos new */
   
   .contenu-new{
     padding-left: 10px !important;
   }
+
   .contenu-new h2{
     margin-top: 50% !important;
   }
+
   .button-New{
-    
     margin-top: 5% !important;
-    
   }
+
   /* la section commenteur */
+
   .temoignage{
     padding: 10px;
   }
+
   .temoignageClients{
     margin-top: 6%;
     height: 50%;
@@ -489,6 +528,7 @@
 
 }
 
+
 @media (min-width:1200px){
 
   nav{
@@ -500,10 +540,13 @@
     padding: 0 !important;
     overflow: hidden;
   }
+
   /* le cors de ce site */
+
   .title-entete{
     top: 190px;
   }
+
   .imageYemei{
     height: 660px;
   }
@@ -516,81 +559,69 @@
     margin: 0px;
     z-index: 1;
   }
+
   .imgWomen{
     position: absolute;
     width: 335px !important;
     height: 410px !important;
     left: 210px;
   }
+
   /* section nos service */
+
   .services{
     height: 840px ;
   }
+
   .contenyService{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 11%;
   }
+
   .infoService{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 71%;
   }
-  /*
-  .bloc-Rectangle{
-    margin-top: 5%;
-  }
-  .conteny-rectagles{
-    position: relative;
-    display: flex;
-    margin-top: 5%;
-  }
-  .Rectangle12{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 11px;
-    height: 100vh;
-    left: 5px;
-    bottom: 2px;
-    padding: 10px;
-    z-index: 1;
-  }
-  .Rectangle12 svg{
-    width: 40px !important;
-    height: 40px;
-  } */
+
   /* la section nos services realisé */
+
   .realiserInfos{
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .paragraph-Realisation{
     width: 50%;
     padding: 10px;
     font-size: 12px;
   }
+
   /* la section nos new */
+
   .contenu-new{
     padding-left: 10px !important;
   }
+
   .contenu-new h2{
     margin-top: 50% !important;
   }
+
   .button-New{
     margin-top: 5% !important;
   }
+
   /* la section commenteur */
+
   .temoignageClients{
     margin-top: 6%;
     height: 50%;
   }
+
   .pyrogom{
     position: absolute;
     left: 640px;
@@ -600,11 +631,12 @@
     height: 50px !important;
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
+
   /* la partie footer */
+
   footer .contacts{
     padding-left: 0 !important;
   }
-  
          
 }
 

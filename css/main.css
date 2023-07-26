@@ -2,21 +2,27 @@
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 
 /* importation des fichées css.*/
+
 @import url(media.css);
+
 @import url(variables.css);
 
 /* integration de police space grotesk. */
+
 @font-face {
   font-family: 'SpaceGrotesk';
   src: url('/fonts/SpaceGrotesk-Regular.ttf');
   font-weight: 400;
 }
+
 @font-face {
   font-family: 'SpaceGrotesk';
   src: url('/fonts/SpaceGrotesk-Bold.ttf');
   font-weight: 700;
 }
-/* arrangement de feuille des elements parents */
+
+/* arrangement des elements parents */
+
 body{
   font-family: "SpaceGrotesk",sans-serif ;
   font-size: 15px;
@@ -27,13 +33,19 @@ body{
 
 html {
   font-family: "SpaceGrotesk",sans-serif;
-  color: #222;
+  color: var(--bs-dark);
   font-size: 15px;
   line-height: 1.4;
 }
+
 /* la mise en forme de l'entete du site la barre de navigation */
+
 head{
   z-index: 20 !important;
+}
+
+.navPrincipal{
+  background-color: var(--bs-white);
 }
 
 .lienk1,
@@ -45,12 +57,14 @@ head{
     top: 25px;
     height: 43px;
   }
+
 .lienk3{
   padding-left: 20px;
   padding-right: 20px;
 }
+
 a{
-  color: var(--linkColor-)!important;
+  color: var(--bs-black)!important;
 }
 
 .logo{
@@ -61,14 +75,14 @@ a{
   display: none;
   width: 100%;
 }
+
 .offcanvas{
-  
   background-color: rgb(61, 60, 60);
-  color: aliceblue;
+  color: var(--bs-light);
 }
 
 .offcanvas-header{
-  background-color: aliceblue;
+  background-color: var(--bs-light);
 }
 
 .offcanvasRightLabel .logo{
@@ -76,6 +90,7 @@ a{
 }
 
 /* le cors de ce site */
+
  .container-fluid{
   position: relative;
   top: 0Px !important;
@@ -83,6 +98,7 @@ a{
   padding: 0 !important;
   overflow: hidden;
  }
+
  .imageYemei{
   display: flex;
   justify-content: center;
@@ -90,6 +106,7 @@ a{
   background-size: cover;
   background-position: center;
  }
+
  .title-entete{
   position: absolute;
   display: flex;
@@ -100,13 +117,15 @@ a{
   max-width: 500px;
   height: 230px;
   text-align: center;
-  color: var(--navBar-);
+  color: var(--bs-white);
  }
+
  .title-entete h1{
   position: absolute;
   top: 10px;
   
  }
+
  .title-entete span{
   font-size: 12px;
   line-height: 19.14px;
@@ -119,9 +138,9 @@ a{
 
  .bottonInfos .bntINfos{
   margin-right: 10px;
-  color: #222;
-  border: 1px solid var(--navBar-) !important;
-  background-color: var(--navBar-);
+  color: var(--bs-dark);
+  border: 1px solid var(--bs-white) !important;
+  background-color: var(--bs-white);
 
   -moz-transform: skew(-15deg,0deg);
 	-o-transform: skew(-15deg,0deg);
@@ -131,9 +150,9 @@ a{
  
  .bottonInfos .btnCOntact{
   margin-left: 10px;
-  color: var(--navBar-);
+  color: var(--bs-white);
   
-  border: 1px solid var(--navBar-) !important;
+  border: 1px solid var(--bs-white) !important;
   background-color: transparent;
 
   -moz-transform: skew(-15deg,0deg);
@@ -143,15 +162,17 @@ a{
  }
 
 /* la section presentation */
+
 .imagePresentes{
   position: relative !important;
 }
- .btnInfoPlus{
+
+.btnInfoPlus{
   width: 167px;
-  border: 1px solid #222 !important;
+  border: 1px solid var(--bs-dark) !important;
   border-radius: 0;
-  background-color: #222;
-  color: var(--navBar-);
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
 	-moz-transform: skew(-15deg,0deg);
 	-o-transform: skew(-15deg,0deg);
 	-webkit-transform: skew(-15deg,0deg);
@@ -168,8 +189,8 @@ a{
  }
  
  .infoService h2{
-  color: var(--navBar-);
-}
+  color: var(--bs-white);
+ }
 
  .infoService p{
   color: rgba(255, 255, 255, 0.377);
@@ -196,7 +217,7 @@ a{
   font-size: 11px;
   left: 5px;
   bottom: 3px;
-  background-color: #FFFFFF;
+  background-color: var(--bs-white);
   z-index: 1;
 }
 
@@ -215,16 +236,17 @@ a{
 
  .voirPucRealisation{
   width: 167px;
-  border: 1px solid #222 !important;
+  border: 1px solid var(--bs-dark) !important;
   border-radius: 0;
   background-color: transparent;
-  color: #222;
+  color: var(--bs-dark);
 
 	-moz-transform: skew(-15deg,0deg);
 	-o-transform: skew(-15deg,0deg);
 	-webkit-transform: skew(-15deg,0deg);
 	transform: skew(-15deg,0deg);
  }
+
 /* la section confiance */
 
 .confiance{
@@ -254,29 +276,35 @@ a{
 }
 
 /* la section nos news */
+
 .block-newImage div{
   padding: 5px;
 }
+
 .button-New{
   width: 167px;
-  border: 1px solid #222 !important;
+  border: 1px solid var(--bs-dark) !important;
   border-radius: 0;
   background-color: transparent;
-  color: #222;
+  color: var(--bs-dark);
 
 	-moz-transform: skew(-15deg,0deg);
 	-o-transform: skew(-15deg,0deg);
 	-webkit-transform: skew(-15deg,0deg);
 	transform: skew(-15deg,0deg);
 }
+
 /* la section commenteur */
+
 .commenteur{
   background-color: #F5F5F5;
 }
+
 .temoignage{
   position: relative;
   display: flex;
 }
+
 .block-commenteur{
   display: flex;
   justify-content: center;
@@ -285,23 +313,26 @@ a{
   background-color: black;
   color: #f5f5f5c2;
 }
+
 .affichCommenteur{
   width: 50%;
   font-size: 12px;
-  background-color: #2222221c;
+  background-color: var(--bs-dark)2221c;
 }
+
 /* la partie offcanvas */
 
 .offcanvas-body li{
-  background-color: #2222221c;
-  border: 1px solid #f5f5f559;
+  background-color: var(--bs-dark)2221c;
+  border: 1px solid var(--bs-secondary);
   border-radius: 8px;
   margin: 5px !important;
   transition: color 0.35s ease-in-out, background-color 0.45s ease-in-out;
 }
+
 .offcanvas-body li:hover{
-  background-color: black;
-  border: 1px solid #f5f5f54d;
+  background-color: var(--bs-black);
+  border: 1px solid var(--bs-secondary);
   border-radius: 8px;
   margin: 5px !important;
 }
@@ -316,36 +347,87 @@ a{
 }
 
 .offcanvas-body ul li a{
-  color: aliceblue !important;
+  color: var(--bs-light) !important;
   font-size: 25px;
 }
 
 /* la partie footer */
 
 footer{
-  background-color: #000000;
-  color: #d3d3d39d !important;
+  background-color: var(--bs-black);
+  color: var(--bs-gray) !important;
   padding-top: 10px;
   text-align: justify;
 }
+
 footer .Suivez-nous .nous-contactez{
-  background-color: #FFFFFF;
+  background-color: var(--bs-white);
 }
+
 footer .Suivez-nous .nous-contactez button{
-  color: #FFFFFF;
+  color: var(--bs-white);
 }
+
 footer .Suivez-nous input{
   border-radius: 0;
   background-color: #000000;
 }
 
-/* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
-
-.agenceHeader{
-  background-color: red;
+footer h3{
+  color: var(--bs-white);
 }
 
+/* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
 
+.agences-body-light{
+  color: var(--bs-white);
+  background-color: var(--bs-white);
+}
+
+.agences-accueil{
+  background: url(../img/unsplash_gxD8hCmi0IQ.png);
+  background-position: center;
+  background-size: cover;
+  height: 432px;
+}
+
+.agences-accueil_positionnement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.agences-accueil_small-entete{
+  background-color: var(--bs-black);
+}
+
+.agences-accueil_barreNavigation_block-list{
+  display: flex;
+  justify-content: space-between ;
+}
+
+.agences-accueil_logo{
+  width: 107px !important;
+}
+
+.agences-accueil_barreNavigation_block-list li a{
+  color: var(--bs-white) !important;
+}
+
+.agences-accueil_block-title{
+  width: 691px;
+  text-align: center;
+}
+/* la section info*/
+.agences-infos-light{
+  background-color: var(--bs-black);
+  justify-content: space-;
+}
+/*  */
+
+.agences-eliezer{
+  background: url(../img/unsplash_Lks7vei-eAg.png);
+}
 
  
 
