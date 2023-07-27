@@ -380,7 +380,7 @@ footer h3{
 /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
 
 .agences-body-light{
-  color: var(--bs-white);
+  color: var(--bs-light);
   background-color: var(--bs-white);
 }
 
@@ -388,7 +388,6 @@ footer h3{
   background: url(../img/unsplash_gxD8hCmi0IQ.png);
   background-position: center;
   background-size: cover;
-  height: 432px;
 }
 
 .agences-accueil_positionnement{
@@ -414,21 +413,30 @@ footer h3{
   color: var(--bs-white) !important;
 }
 
-.agences-accueil_block-title{
-  width: 691px;
+.agences-accueil_block-title .block-title-contenu{
+  width: 480px;
   text-align: center;
 }
+
 /* la section info*/
+
 .agences-infos-light{
   background-color: var(--bs-black);
-  justify-content: space-;
-}
-/*  */
-
-.agences-eliezer{
-  background: url(../img/unsplash_Lks7vei-eAg.png);
 }
 
+/* la section infos realisation */
+
+.agences-infos-realisation{
+  background-image: linear-gradient(to bottom, #00000054, #000),
+                    url(../img/unsplash_Lks7vei-eAg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.info-realisation_btn{
+  background-color: var(--bs-white);
+  color: var(--bs-black);
+}
  
 
 

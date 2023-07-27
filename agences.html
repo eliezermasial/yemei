@@ -15,8 +15,8 @@
         <p>1123 Gombe, Immeuble de la Primature - Kinshasa</p>
       </div>
 
-      <nav class="nav navbar-expand p-2 agences-accueil_barreNavigation">
-        <ul class="navbar-nav w-100 agences-accueil_barreNavigation_block-list">
+      <nav class="nav navbar-expand p-2 w-100 agences-accueil_barreNavigation">
+        <ul class="navbar-nav d-none d-md-flex w-100 agences-accueil_barreNavigation_block-list">
 
           <div class="ms-5" style="width: 107px;">
             <li class="nav-item">
@@ -36,19 +36,60 @@
               </li>
           </div>
         </ul>
+        
+        <ul class="navbar-nav d-flex d-md-none w-100  navMenu">
+          <li class="nav-item">
+            <img class="img-fluid logo"  src="img/YEMEÏ2_Plan de travail 1 (1) 1.png" alt="logo" srcset="">
+          </li>
+          <li class="nav-item">
+            <button id="buttonmen" type="button" class="btn p-1"   data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" id="Glyph" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M13,16c0,1.654,1.346,3,3,3s3-1.346,3-3s-1.346-3-3-3S13,14.346,13,16z" id="XMLID_294_"/><path d="M13,26c0,1.654,1.346,3,3,3s3-1.346,3-3s-1.346-3-3-3S13,24.346,13,26z" id="XMLID_295_"/><path d="M13,6c0,1.654,1.346,3,3,3s3-1.346,3-3s-1.346-3-3-3S13,4.346,13,6z" id="XMLID_297_"/></svg>
+            </button>
+          </li>
+        </ul>
+
+        <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <li class="offcanvasRightLabel">
+              <img class="img-fluid logo" src="img/YEMEÏ2_Plan de travail 1 - black 1.png" alt="logo" srcset="">
+            </li>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+  
+              <ul class="navbar-nav" style="display: block !important;">
+                <li class="nav-item">
+                  <a href="#" target="_blank" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" target="_blank" class="nav-link" >Yemeï</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" target="_blank" class="nav-link" >Réalisations</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" target="_blank" class="nav-link" >Blog</a>
+                </li>
+              </ul>
+              
+          </div>
+        </div>
       </nav>
-      <div class="p-1 mt-5 mb-4 agences-accueil_block-title">
-        <h1 class="fw-bold pb-5">L’Agence</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>
+      
+      <div class=" d-flex justify-content-center mt-3 mb-4 w-100 agences-accueil_block-title">
+        <div class="p-3 p-md-0 w-md-100 block-title-contenu">
+          <h1 class="fw-bold pb-4">L’Agence</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>
+        </div>
       </div>
       
     </header>
-
+ 
     <main>
       <section class="pt-5 pb-5 mt-5 agences-imageMusic">
         <div class="container">
           <div class="row">
-          <div class="col col-md-12  d-flex justify-content-center flex-nowrap">
+          <div class="col col-md-12 pb-5 d-flex justify-content-center flex-nowrap">
 
             <div class="col-5 pb-0 p-3">
               <img class="img-fluid" src="img/unsplash_ekHSHvgr27k.png" alt="unsplash_ekHSHvgr27k" style="height: 563px;">
@@ -69,13 +110,13 @@
       <section class="pt-5 pb-5 agences-infos-light">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-12 d-flex justify-content-around pt-5 pb-5 p-3 agences-what-do-we-do">
-              <div class="col pb-0 pt-1 p-5 agences-what-do-we-do-left">
+            <div class="col-12 col-md-12 d-md-flex justify-content-around pt-5 pb-5 p-3 agences-what-do-we-do">
+              <div class="col-12 col-md-5 pb-md-0 pt-md-1 p-md-5 ps-md-3 agences-what-do-we-do-left">
                 <h2 class="fw-bold pb-3">Ques faisons-nous ?</h2>
                 <strong class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</strong>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
               </div>
-              <div class="col pb-0 p-5 lh-sm agences-what-do-we-do-right" style="text-align: justify;">
+              <div class="col-12 col-md-5 pb-md-0 p-md-5 pe-md-3 text-justify lh-sm agences-what-do-we-do-right">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
@@ -85,18 +126,29 @@
         </div>
       </section>
 
-      <section class="pt-5 pb-5 agences-eliezer">
+      <section class="pt-5 pb-5 mb-5 agences-infos-realisation">
         <div class="container">
           <div class="row">
-            <div class="col">
-              <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..</p>
+            <div class="col-12 p-5 d-flex flex-column align-items-start justify-content-center">
+              <div class="col-6 pb-2 ps-md-4 lh-sm agences-infos-realisation-contenu">
+                <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..</p>
+                <p class="pt-3 pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..</p>
+                <button type="button" class="btn fw-bold ps-4 pe-4 p-2 info-realisation_btn">En savoir plus</button>
+              </div>
             </div>
-
           </div>
         </div>
       </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+      </section> 
     </main>
+    
 
 
   <!-- Add your site or application content here -->

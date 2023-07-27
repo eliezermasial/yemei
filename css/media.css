@@ -241,6 +241,16 @@
     clip-path: polygon(50% 0%, 10% 50%, 50% 100%);
   }
 
+  /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
+
+  .agences-imageMusic img{
+    height: auto !important;
+  }
+
+  .agences-infos-realisation-contenu{
+    width: 100%;
+  }
+
 } 
 
 @media (min-width:768px)  {
