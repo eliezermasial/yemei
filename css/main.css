@@ -437,6 +437,12 @@ footer h3{
   background-color: var(--bs-white);
   color: var(--bs-black);
 }
+
+/* la section nos client */
+
+.agences-nos-clients_light{
+  color: var(--bs-black);
+}
  
 
 
