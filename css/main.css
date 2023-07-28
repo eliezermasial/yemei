@@ -390,6 +390,7 @@ footer h3{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  height: 638px;
 }
 
 .agences-accueil_positionnement{
@@ -407,7 +408,8 @@ footer h3{
   justify-content: space-between ;
 }
 
-.agences-accueil_logo{
+.agences-accueil_logo,
+.realisation-accueil_logo{
   width: 107px !important;
 }
 
@@ -446,5 +448,46 @@ footer h3{
   color: var(--bs-black);
 }
  
+/* la troisieme page de notre site, ici on vous presente nos different realisation*/
 
+.realisation-body-light{
+  color: var(--bs-white);
+}
+
+.realisation-accueil{
+  background: url(../img/unsplash_bXjqPckmLD8.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 638px;
+}
+
+.realisation-accueil_positionnement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.realisation-accueil_small-entete{
+  background-color: var(--bs-black);
+}
+
+.realisation-accueil_barreNavigation_block-list li a{
+  color: var(--bs-white) !important;
+}
+
+.realisation-accueil_barreNavigation_block-list{
+  display: flex;
+  justify-content: space-between ;
+}
+
+.realisation-accueil_barreNavigation_block-list{
+  display: flex;
+  justify-content: space-between ;
+}
+
+.realisation-accueil_block-title .block-title-contenu{
+  width: 480px;
+  text-align: center;
+}
 
