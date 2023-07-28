@@ -105,6 +105,7 @@ a{
   background: url(../img/unsplash_ny6tO4ItOEY.png);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
  }
 
  .title-entete{
@@ -388,6 +389,7 @@ footer h3{
   background: url(../img/unsplash_gxD8hCmi0IQ.png);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .agences-accueil_positionnement{

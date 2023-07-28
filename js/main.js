@@ -1,4 +1,4 @@
-/*
+
 function media (){
     let mediaGeneral = window.matchMedia("(min-width:768px)")
     let mediaMobil = window.matchMedia("(max-width:768px)")
@@ -48,7 +48,7 @@ function media (){
 }
 
 
-media() */
+media() 
 
 
 
