@@ -486,8 +486,25 @@ footer h3{
   justify-content: space-between ;
 }
 
+.realisation-articles{
+  text-align: justify;
+}
+
 .realisation-accueil_block-title .block-title-contenu{
   width: 480px;
   text-align: center;
+}
+
+.realisation-infos-realisation{
+  background-image: linear-gradient(to bottom, #00000054, #000),
+                    url(../img/unsplash_Lks7vei-eAg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.realisation-articles-btn{
+  background-color: var(--bs-black);
+  color: var(--bs-white);
+  border-radius: 0;
 }
 

@@ -251,6 +251,10 @@
     width: 100%;
   }
 
+  .realisation-infos-realisation-contenu{
+    width: 100%;
+  }
+
 } 
 
 @media (min-width:768px)  {
