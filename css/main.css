@@ -409,7 +409,8 @@ footer h3{
 }
 
 .agences-accueil_logo,
-.realisation-accueil_logo{
+.realisation-accueil_logo,
+.blog-accueil_logo{
   width: 107px !important;
 }
 
@@ -481,11 +482,6 @@ footer h3{
   justify-content: space-between ;
 }
 
-.realisation-accueil_barreNavigation_block-list{
-  display: flex;
-  justify-content: space-between ;
-}
-
 .realisation-articles{
   text-align: justify;
 }
@@ -506,5 +502,38 @@ footer h3{
   background-color: var(--bs-black);
   color: var(--bs-white);
   border-radius: 0;
+}
+
+/* la page  blog du site */
+
+.blog-body{
+  color: var(--bs-white);
+}
+
+.blog-accueil{
+  background: url(../img/unsplash__UeY8aTI6d0.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 638px;
+}
+
+.blog-accueil_positionnement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-accueil_small-entete{
+  background-color: var(--bs-black);
+}
+
+.blog-accueil_barreNavigation_block-list li a{
+  color: var(--bs-white) !important;
+}
+
+.blog-accueil_barreNavigation_block-list{
+  display: flex;
+  justify-content: space-between ;
 }
 
