@@ -531,7 +531,7 @@ footer h3{
 
 /* la page blog-article */
 
-.eliezer{
+.blog-article-bag{
   width: 100%;
   background: url(../img/unsplash__UeY8aTI6d0.png);
   background-position: center;
@@ -570,4 +570,24 @@ footer h3{
 .block-img-oposer{
   position: absolute;
   top: 375px;
+}
+
+.section-titre-d-article h2{
+  font-size: 50px;
+  line-height: 63px;
+}
+
+.contenu-article{
+  font-size: 25px;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+/* la section commenter pubs */
+
+.section-commenterPubs{
+  color: var(--bs-black);
+}
+.section-commenterPubs h2{
+  font-size: 30px;line-height: 38px;
 }
