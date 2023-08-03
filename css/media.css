@@ -14,7 +14,7 @@
   }
 
   .navMenu li button{
-    background-color: rgba(29, 29, 29, 0.856);
+    background-color: var(--bs-white);
     border: 2px solid  rgba(104, 103, 102, 0.171);
     box-shadow: none !important;
   }
