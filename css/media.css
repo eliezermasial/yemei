@@ -275,6 +275,10 @@
     height: 1100px ;
   }
 
+  .section-commenterPubs form .btn-light{
+    width: 100% !important;
+  }
+
 } 
 
 

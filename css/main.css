@@ -572,6 +572,10 @@ footer h3{
   top: 375px;
 }
 
+.section-titre-d-article{
+  color: var(--bs-black);
+}
+
 .section-titre-d-article h2{
   font-size: 50px;
   line-height: 63px;
@@ -589,5 +593,29 @@ footer h3{
   color: var(--bs-black);
 }
 .section-commenterPubs h2{
-  font-size: 30px;line-height: 38px;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.section-commenterPubs form input,textarea{
+  border: 1px var(--bs-black) solid !important;
+}
+
+.section-commenterPubs form .btn-light{
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 2px !important;
+  background-color: var(--bs-black);
+  color: var(--bs-white);
+  height: 93px;
+}
+
+/* section article similaire */
+.article-similaires{
+  color: var(--bs-black);
+}
+
+.article-similaires h2{
+  font-size: 30px;
+  line-height: 38px;
 }
