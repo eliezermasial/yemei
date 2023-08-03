@@ -325,6 +325,18 @@ footer{
   text-align: justify;
 }
 
+footer h3{
+  font-size: 25px;
+  line-height: 31.9px;
+  color: var(--bs-white);
+}
+
+footer p{
+  font-size: 15px;
+  line-height: 25.52px;
+  font-weight: 400;
+}
+
 footer .Suivez-nous .nous-contactez{
   background-color: var(--bs-white);
 }
@@ -336,10 +348,6 @@ footer .Suivez-nous .nous-contactez button{
 footer .Suivez-nous input{
   border-radius: 0;
   background-color: #000000;
-}
-
-footer h3{
-  color: var(--bs-white);
 }
 
 /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
@@ -398,12 +406,40 @@ footer h3{
   background-size: cover;
 }
 
+.btn-agence{
+  width: 36.43px;
+  height: 36.43px;
+  text-align: center;
+  box-shadow: none !important;
+  border-radius: 4px;
+  background-color: var(--bs-black);
+}
+
+.nos-clients-contenu-right p {
+  font-weight: 400;
+  line-height: 23.44px;
+}
+
+.agences-infos-realisation-contenu h3{
+  font-size: 30px;
+  line-height: 38.28px;
+}
+
+.agences-infos-realisation-contenu p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
 .info-realisation_btn{
   width: 211px;
   height: 64px;
+  font-size: 20px;
+  line-height: 23px;
   border-radius: 5px;
   background-color: var(--bs-white);
   color: var(--bs-black);
+  padding-top: 18px !important;
 }
 
 /* la section nos client */
@@ -461,6 +497,17 @@ footer h3{
   background-size: cover;
 }
 
+.realisation-infos-realisation-contenu h3{
+  font-size: 30px;
+  line-height: 38.28px;
+}
+
+realisation-infos-realisation-contenu p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
 .realisation-articles-btn{
   background-color: var(--bs-black);
   color: var(--bs-white);
@@ -504,6 +551,11 @@ footer h3{
   width: 691px;
   text-align: center;
 }
+
+.blog-articles{
+  background-color: var(--violet) !important;
+}
+
 .Titre-d-article{
   text-align: start;
   color: var(--bs-article);
@@ -544,9 +596,11 @@ footer h3{
 }
 
 .blog-article-accueil_positionnement{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 370px !important;
 }
 
 .blog-article-accueil_small-entete{
@@ -572,6 +626,10 @@ footer h3{
   top: 375px;
 }
 
+.block-img-oposer img{
+  height: 559px;
+}
+
 .section-titre-d-article{
   color: var(--bs-black);
 }
@@ -583,7 +641,7 @@ footer h3{
 
 .contenu-article{
   font-size: 25px;
-  line-height: 31px;
+  line-height: 32px;
   font-weight: 400;
 }
 
@@ -611,6 +669,7 @@ footer h3{
 }
 
 /* section article similaire */
+
 .article-similaires{
   color: var(--bs-black);
 }

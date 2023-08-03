@@ -1,14 +1,4 @@
-@media (max-width:395px)  {
-  .blog-article-accueil{
-    height: 800px !important;
-  }
-}
 
-@media (min-width:395px)  {
-  .blog-article-accueil{
-    height: 850px ;
-  }
-}
 
 
 @media (max-width:768px)  {
@@ -270,10 +260,7 @@
 
   /* la section blog article */
   
-  .blog-article-accueil{
-    background-color: red ;
-    height: 1100px ;
-  }
+ 
 
   .section-commenterPubs form .btn-light{
     width: 100% !important;
@@ -433,9 +420,7 @@
 
   /* la section blog article */
   
-  .blog-article-accueil{
-    height: 1230px;
-  }
+
    
 }
 
@@ -573,9 +558,7 @@
 
   /* la section blog article */
   
-  .blog-article-accueil{
-    height: 1500px;
-  }
+ 
 
 }
 
@@ -691,9 +674,7 @@
 
   /* la section blog article */
   
-  .blog-article-accueil{
-    height: 1700px;
-  }
+
          
 }
 
