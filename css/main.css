@@ -566,3 +566,8 @@ footer h3{
   width: 691px;
   text-align: center;
 }
+
+.block-img-oposer{
+  position: absolute;
+  top: 375px;
+}
