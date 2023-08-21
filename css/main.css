@@ -3,7 +3,8 @@
 
 /* importation des fichées css.*/
 
-
+@import url(media.css);
+@import url(variables.css);
 
 /* integration de police space grotesk. */
 
