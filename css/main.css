@@ -337,6 +337,7 @@ footer p{
 }
 
 footer .Suivez-nous .nous-contactez{
+  height: 63px;
   background-color: var(--bs-white);
 }
 
@@ -347,6 +348,14 @@ footer .Suivez-nous .nous-contactez button{
 footer .Suivez-nous input{
   border-radius: 0;
   background-color: #000000;
+}
+
+footer .liens-sociaux p {
+  border-radius: 4px ;
+}
+
+footer .liens-sociaux li {
+  list-style: none;
 }
 
 /* la deuxieme page de notre site, ici on parle de comment fonctionne notre agence*/
@@ -410,6 +419,7 @@ footer .Suivez-nous input{
   height: 36.43px;
   text-align: center;
   box-shadow: none !important;
+  padding: 0px !important;
   border-radius: 4px;
   background-color: var(--bs-black);
 }
