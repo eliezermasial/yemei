@@ -1,6 +1,4 @@
 
-
-
 @media (max-width:768px)  {
 
   .navPrincipal{
@@ -17,7 +15,6 @@
   }
 
   .navMenu li button{
-    background-color: var(--bs-white);
     border: 2px solid  rgba(104, 103, 102, 0.171);
     box-shadow: none !important;
   }
@@ -260,10 +257,15 @@
 
   /* la section blog article */
   
- 
-
   .section-commenterPubs form .btn-light{
     width: 100% !important;
+  }
+
+  /* la page contact */
+
+  .joindre{
+    background-image: linear-gradient(to bottom, #00000000 50%, #000000ce 50%),
+                      url(../img/unsplash_iRnjlKjNXgg.png) !important;
   }
 
 } 

@@ -1,11 +1,11 @@
+@import url(media.css);
+
+@import url(variables.css);
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 
 /* importation des fichées css.*/
 
-@import url(media.css);
-
-@import url(variables.css);
 
 /* integration de police space grotesk. */
 
@@ -472,13 +472,13 @@ footer .Suivez-nous input{
   background-color: var(--bs-black);
 }
 
-.realisation-accueil_barreNavigation_block-list li a{
-  color: var(--bs-white) !important;
-}
-
 .realisation-accueil_barreNavigation_block-list{
   display: flex;
   justify-content: space-between ;
+}
+
+.realisation-accueil_barreNavigation_block-list li a{
+  color: var(--bs-white) !important;
 }
 
 .realisation-articles{
@@ -677,4 +677,60 @@ realisation-infos-realisation-contenu p{
 .article-similaires h2{
   font-size: 30px;
   line-height: 38px;
+}
+
+/* la page contact */
+
+.contact-accueil{
+  background: url(../img/unsplash_Dkn8-zPIbwo.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 638px;
+}
+
+.contact-accueil_positionnement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--bs-white);
+}
+
+.contact-accueil_small-entete{
+  background-color: var(--bs-black);
+}
+
+.joindre{
+  overflow: hidden;
+  background-image: linear-gradient(to left, #000000ce 50%, #00000000 50%),
+                    url(../img/unsplash_iRnjlKjNXgg.png);
+  color: var(--bs-white);
+}
+
+.joindre_contenu form input, textarea {
+  font-size: 20px;
+  color: var(--bs-white) !important;
+  border: 3px solid var(--bs-white) !important;
+  border-radius: 5px;
+  box-shadow: none !important;
+}
+
+.joindre_contenu .form_btn{
+  font-size: 20px;
+  width: 211px;
+  height: 64px;
+  background-color: var(--bs-white);
+  color: var(--bs-black);
+}
+
+.joindre_contenu_contacte p {
+  font-size: 30px;
+}
+
+.joindre_contenu_contacte h3 {
+  font-size: 35px;
+}
+
+.joindre_contenu_contacte .lorem {
+  font-size: 25px !important;
 }
