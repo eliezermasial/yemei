@@ -128,15 +128,16 @@
 
   .realiserInfos{
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding-right: 0 !important;
   }
 
   .paragraph-Realisation{
-    width: 50%;
+    
     padding: 10px;
+    padding-left: 0;
     font-size: 8px; 
   }
 
