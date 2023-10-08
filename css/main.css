@@ -10,13 +10,13 @@
 
 @font-face {
   font-family: 'SpaceGrotesk';
-  src: url('/fonts/SpaceGrotesk-Regular.ttf');
+  src: url('/fonts/SpaceGrotesk-Regular.ttf') format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'SpaceGrotesk';
-  src: url('/fonts/SpaceGrotesk-Bold.ttf');
+  src: url('/fonts/SpaceGrotesk-Bold.ttf') format("opentype");
   font-weight: 700;
 }
 
@@ -37,6 +37,17 @@ html {
   line-height: 1.4;
 }
 
+.box{
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s cubic-bezier(0.2,1.83,0.42,1.19);
+  }
+
+  .box:hover{
+    z-index: 99;
+    transform: scale(1.2);
+  }
+    
 /* la mise en forme de l'entete du site la barre de navigation */
 
 .navPrincipal{
